@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+  background-color: rgb(69, 128, 108);
+  padding-top: 2rem;
+}
+
+.container {
+  width: 300px;
+  background-color: rgba(3, 215, 230);
+
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+
+.app-title {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-title p {
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  color: #293251;
+}
+
+.notification {
+  background-color: #f8d7da;
+  display: none;
+}
+
+.notification p {
+  color: #721c24;
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.weather-container {
+  width: 300px;
+  height: 260px;
+  background-color: rgba(3, 215, 230);
+}
+
+.block-text{
+  text-align: center;
+}
+.inputz{
+  margin-bottom: 1rem;
+}
+.inputs{
+  display: block;
+  padding-left: 5px;
+  padding-top: 2rem;
+  /* margin-top: 4rem; */
+  /* align-self: center; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+}
+
+.btn-primary {
+  width: 18rem;
+  height: 1.8em;
+  color: darkturquoise;
+  background-color: black;
+}
+
+.weatherIcon {
+  width: 300px;
+  height: 128px;
+}
+
+.weatherIcon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.temperatureData {
+  width: 300px;
+  height: 60px;
+}
+
+.temperatureData p {
+  padding: 0;
+  margin: 0;
+  color: #26000a;
+  font-size: 4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.temperatureData p:hover {
+  color: #26000a;
+}
+
+.temperatureData span {
+  color: #293251;
+  font-size: 0.5em;
+  cursor: pointer;
+}
+
+.tempDesc p:hover {
+  color: #26000a;
+}
+
+.tempDesc p {
+  padding: 8px;
+  margin: 0;
+  color: #26000a;
+  text-align: center;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.locationCity:hover {
+}
+
+.locationCity p {
+  margin: 0;
+  padding-top: 15px;
+  color: #26000a;
+  text-align: center;
+  font-size: 1em;
+}
+.tempHigh p {
+  margin: 0;
+  padding-top: 1px;
+  color: #26000a;
+  text-align: center;
+  font-size: 1em;
+}
+
+.tempLow p {
+  margin: 0;
+  padding-top: 1px;
+  color: #26000a;
+  text-align: center;
+  font-size: 1em;
+}
+.humidity p {
+  margin: 0;
+  padding-top: 1px;
+  color: #26000a;
+  text-align: center;
+  font-size: 1em;
+}
